@@ -1,6 +1,6 @@
 MessengerPlatform.setup do |config|
   config.verify_token = 'my_voice_is_my_password_verify_me'
-  config.access_token = 'EAACpsIoHrdQBAHANVVLaYtpowqN3BxlEOs9ZCb1gCJuBOb0I1EOT5zCrAeGuqvxqa33BRmzvkG2GvtR8XurDlbsdxT0UlaIJGCt5Yazb5lit0Q7QMUP35jpBAmJKNk1MD0yEpy03AZBZAZBW2PSKfY6d1SrGCFgHAca8xZCjqpQZDZD'
+  config.access_token = 'EAAHzBcAFZAmMBAL5w2ErkSDH7hgjgFnZA65enBQ99DSEcaiUjtFJVHyAD3OHvBa9kZCYoIZBEPZBEzZBH0bSZBqaSHeFYDN8TSjNVZCgFszib21WG54i6FGF7i09dQ9BQzZBW2heMKbCFQXUWcbkpaeE4BJZAwPCPxRnrRQHsmSKFkRAZDZD'
 
   config.processor_class = MessageProcessor
   config.processor_method = :do_thing
