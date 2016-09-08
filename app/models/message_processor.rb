@@ -7,7 +7,7 @@ class MessageProcessor
   def do_thing
     # This gets invoked whenever a message is received
     if @message.text # Some messages are delivery notices without text
-      reply = MessengerPlatform::TextMessage.new(@message.sender, @message.text)
+      reply = MessengerPlatform::TextMessage.new(@message.sender, "echo:" + @message.text)
       reply.deliver
     end
   end
